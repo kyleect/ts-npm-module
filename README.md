@@ -1,36 +1,23 @@
-# typescript-module-boilerplate
+# ts-npm-module
 
-This is a boilerplate for a TypeScript NPM module.
-
-## Usage
+## Getting started
 
 ```
-git clone https://github.com/alexgorbatchev/typescript-module-boilerplate.git
-cd typescript-module-boilerplate
-npm install
-typings install
+$ git clone https://github.com/kyleect/ts-npm-module.git
+$ cd ts-npm-module
+$ npm run bootstrap
 ```
 
-## Testing
-
-Uses Mocha, just do it!
+## Test
 
 ```
 npm test
 ```
 
-## Building
-
-Use TypeScript straight up
+## Build
 
 ```
-rm -rf lib && tsc
-```
-
-or a convenience shortcut
-
-```
-npm run build
+$ npm run build
 ```
 
 ## License

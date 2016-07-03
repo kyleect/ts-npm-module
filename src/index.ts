@@ -1,5 +1,3 @@
-export default (options): Function => {
-  return function (req, res, next) {
-
-  };
-}
+export default function () {
+  throw new Error("Not implemented");
+};

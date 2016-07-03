@@ -1,9 +1,10 @@
 {
-  "name": "typescript-module-boilerplate",
-  "version": "1.0.0",
+  "name": "ts-npm-module",
+  "version": "0.1.0",
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**/*-test.ts",
-    "build": "rm -rf lib && tsc"
+    "build": "rm -rf lib && tsc",
+    "bootstrap": "npm install && typings install && npm run build"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

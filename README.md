@@ -1,5 +1,7 @@
 # ts-npm-module
 
+A template for writing npm modules in typescript.
+
 ## Technologies
 
 - [typescript](https://www.typescriptlang.org/)

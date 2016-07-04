@@ -41,13 +41,13 @@ export default function module() {
 
 ## Test Module
 
-```
-npm test
+```sh
+$ npm test
 ```
 
 ## Build Module
 
-```
+```sh
 $ npm run build
 ```
 

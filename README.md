@@ -24,6 +24,10 @@ This will install npm depedencies, typings and builds the project.
 $ npm run bootstrap
 ```
 
+### Configure
+
+- Edit `"name": "ts-npm-module"` in `./package.json` to the name of your project
+
 ### Coding
 
 The entry point for the module is `./src/index.ts`

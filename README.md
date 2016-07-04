@@ -38,7 +38,7 @@ Delete the repository's history, initializes as a new git repository and commits
 ```sh
 $ rm -rf .git
 $ git init
-$ git commit -am "Initial commit"
+$ git commit -m "Initial commit"
 ```
 
 or you can run:

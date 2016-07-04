@@ -32,7 +32,7 @@ $ npm run bootstrap
 
 The entry point for the module is `./src/index.ts`
 
-```
+```js
 // ./src/index.ts
 export default function module() {
   //...

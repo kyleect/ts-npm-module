@@ -31,6 +31,7 @@ $ npm run bootstrap
 - Edit `"name": "ts-npm-module"` in `./package.json` to the name of your module
 - Edit `"description": ""` in `./package.json` to the description of your module
 - Edit `"repository": {}` in `./package.json` to the repository of your module
+- Edit `"private": true` to `false` in `./package.json` to enable publishing your module to npm
 - Edit `README.md` for your module
 
 

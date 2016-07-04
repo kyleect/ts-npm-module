@@ -1,11 +1,12 @@
 {
   "name": "ts-npm-module",
   "description": "",
+  "version": "0.1.0",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/kyleect/ts-npm-module.git"
   },
-  "version": "0.1.0",
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**/*-test.ts",
     "lint": "tslint 'src/**/*.ts'",

@@ -31,9 +31,25 @@ $ npm run bootstrap
 - Edit `"name": "ts-npm-module"` in `./package.json` to the name of your module
 - Edit `"description": ""` in `./package.json` to the description of your module
 
-### Coding
+### Clean slate (optional)
 
-The entry point for the module is `./src/index.ts`
+Delete the repository's history, initializes as a new git repository and commits all files in to an initial commit.
+
+```sh
+$ rm -rf .git
+$ git init
+$ git commit -am "Initial commit"
+```
+
+or you can run:
+
+```sh
+$ npm run cleanslate
+```
+
+## Developing Module
+
+The entry point for the module is `./src/index.ts`.
 
 ```js
 // ./src/index.ts
@@ -42,13 +58,17 @@ export default function module() {
 };
 ```
 
-## Test Module
+## Testing Module
+
+Tests are located at `./tests` with a test pattern of `./tests/**/*-test.ts`.
 
 ```sh
 $ npm test
 ```
 
-## Build Module
+## Building Module
+
+Builds are located at `./lib`.
 
 ```sh
 $ npm run build

@@ -5,7 +5,8 @@
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**/*-test.ts",
     "build": "rm -rf lib && tsc",
-    "bootstrap": "npm install && typings install && npm run build"
+    "bootstrap": "npm install && typings install && npm run build",
+    "cleanslate": "rm -rf .git && git init && git commit -am 'Initial commit'"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

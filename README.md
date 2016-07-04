@@ -70,6 +70,12 @@ Tests are located at `./tests` with a test pattern of `./tests/**/*-test.ts`.
 $ npm test
 ```
 
+## Linting Module
+
+```sh
+$ npm run lint
+```
+
 ## Building Module
 
 Builds are located at `./lib`.

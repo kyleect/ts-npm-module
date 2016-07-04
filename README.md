@@ -31,6 +31,7 @@ $ npm run bootstrap
 - Edit `"name": "ts-npm-module"` in `./package.json` to the name of your module
 - Edit `"description": ""` in `./package.json` to the description of your module
 - Edit `"repository": {}` in `./package.json` to the repository of your module
+- Edit `README.md` for your module
 
 
 ### Clean slate (optional)

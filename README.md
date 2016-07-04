@@ -18,7 +18,7 @@ $ cd module-name
 
 ### Bootstrap
 
-This will install npm depedencies, typings and builds the project.
+This will install npm depedencies, typings and builds the module.
 
 ```sh
 $ npm run bootstrap
@@ -26,7 +26,8 @@ $ npm run bootstrap
 
 ### Configure
 
-- Edit `"name": "ts-npm-module"` in `./package.json` to the name of your project
+- Edit `"name": "ts-npm-module"` in `./package.json` to the name of your module
+- Edit `"description": ""` in `./package.json` to the description of your module
 
 ### Coding
 

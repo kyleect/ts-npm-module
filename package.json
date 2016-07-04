@@ -1,5 +1,6 @@
 {
   "name": "ts-npm-module",
+  "description": "",
   "version": "0.1.0",
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**/*-test.ts",

@@ -9,19 +9,39 @@
 
 ## Getting started
 
+### Clone
+
+```sh
+$ git clone https://github.com/kyleect/ts-npm-module.git module-name
+$ cd module-name
 ```
-$ git clone https://github.com/kyleect/ts-npm-module.git
-$ cd ts-npm-module
+
+### Bootstrap
+
+This will install npm depedencies, typings and builds the project.
+
+```sh
 $ npm run bootstrap
 ```
 
-## Test
+### Coding
+
+The entry point for the module is `./src/index.ts`
+
+```
+// ./src/index.ts
+export default function module() {
+  //...
+};
+```
+
+## Test Module
 
 ```
 npm test
 ```
 
-## Build
+## Build Module
 
 ```
 $ npm run build

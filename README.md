@@ -2,6 +2,15 @@
 
 A template for writing npm modules in typescript.
 
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Developing](#developing-module)
+- [Testing](#testing-module)
+- [Linting](#linting-module)
+- [Building](#building-module)
+
+---
+
 ## Technologies
 
 - [typescript](https://www.typescriptlang.org/)

@@ -7,6 +7,7 @@ A template for writing npm modules in typescript.
 - [typescript](https://www.typescriptlang.org/)
 - [typings](https://github.com/typings/typings)
 - [tslint](https://github.com/palantir/tslint)
+- [eslint](http://eslint.org/)
 - [mocha](https://mochajs.org/) /w [chai](http://chaijs.com/)
 
 ## Getting started
@@ -32,6 +33,8 @@ $ npm run bootstrap
 - Edit `"description": ""` in `./package.json` to the description of your module
 - Edit `"repository": {}` in `./package.json` to the repository of your module
 - Edit `"private": true` to `false` in `./package.json` to enable publishing your module to npm
+- Edit `tsconfig.json` for your module
+- Edit `.eslintrc.js` for your module
 - Edit `README.md` for your module
 
 

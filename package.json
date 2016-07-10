@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha --opts tests/mocha.opts tests/**/*-test.ts",
-    "lint": "tslint 'src/**/*.ts'",
+    "lint": "tslint 'src/**/*.ts' && eslint 'src/**/*.js'",
     "build": "rm -rf lib && npm run lint && tsc",
     "bootstrap": "npm install && bash scripts/typings_install.sh && npm run build",
     "cleanslate": "bash scripts/cleanslate.sh"
@@ -23,6 +23,7 @@
   "devDependencies": {
     "babel": "^6.5.2",
     "chai": "^3.5.0",
+    "eslint": "^3.0.1",
     "mocha": "^2.4.5",
     "mocha-clean": "^1.0.0",
     "ts-node": "^0.9.3",

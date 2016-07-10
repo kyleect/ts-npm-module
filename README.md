@@ -4,10 +4,10 @@ A template for writing npm modules in typescript.
 
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [Developing](#developing-module)
-- [Testing](#testing-module)
-- [Linting](#linting-module)
-- [Building](#building-module)
+- [Developing](#developing)
+- [Testing](#testing)
+- [Linting](#linting)
+- [Building](#building)
 
 ---
 
@@ -63,7 +63,7 @@ or you can run:
 $ npm run cleanslate
 ```
 
-## Developing Module
+## Developing
 
 The entry point for the module is `./src/index.ts`.
 
@@ -74,7 +74,7 @@ export default function module() {
 };
 ```
 
-## Testing Module
+## Testing
 
 Tests are located at `./tests` with a test pattern of `./tests/**/*-test.ts`.
 
@@ -82,13 +82,13 @@ Tests are located at `./tests` with a test pattern of `./tests/**/*-test.ts`.
 $ npm test
 ```
 
-## Linting Module
+## Linting
 
 ```sh
 $ npm run lint
 ```
 
-## Building Module
+## Building
 
 Builds are located at `./lib`.
 

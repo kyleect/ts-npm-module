@@ -33,7 +33,7 @@ $ npm run bootstrap
 - Edit `"description": ""` in `./package.json` to the description of your module
 - Edit `"repository": {}` in `./package.json` to the repository of your module
 - Edit `"private": true` to `false` in `./package.json` to enable publishing your module to npm
-- Edit `tsconfig.json` for your module
+- Edit `tslint.json` for your module
 - Edit `.eslintrc.js` for your module
 - Edit `README.md` for your module
 

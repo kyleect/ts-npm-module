@@ -28,7 +28,7 @@
     "mocha-clean": "^1.0.0",
     "ts-node": "^0.9.3",
     "tslint": "^3.13.0",
-    "typescript": "^2.0.2",
+    "typescript": "^2.1.0-dev.20160911",
     "typings": "^1.3.1"
   }
 }

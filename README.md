@@ -13,7 +13,7 @@ A template for writing npm modules in typescript.
 
 ## Technologies
 
-- [typescript](https://www.typescriptlang.org/)
+- [typescript 2.1](https://www.typescriptlang.org/)
 - [typings](https://github.com/typings/typings)
 - [tslint](https://github.com/palantir/tslint)
 - [eslint](http://eslint.org/)

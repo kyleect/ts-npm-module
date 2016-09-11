@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "lib/",
     "sourceMap": true,
-    "module": "es2015",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "target": "es6",
